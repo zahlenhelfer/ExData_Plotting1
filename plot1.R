@@ -15,7 +15,7 @@ colnames(x) <- colnames(y)
 hist(x[,3], col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
 
 # copy it to a png file
-dev.copy(png, file = "plot1.png") 
+dev.copy(png, file = "plot1.png"-) 
 dev.off()
  
 ## please notice, that the image has a transparent background (same as the images from Prof. Peng)
